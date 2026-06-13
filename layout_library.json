@@ -1,0 +1,8 @@
+{
+    "spacious_layout": {
+        "rules":[
+            "maintain_clear_walkway",
+            "avoid_crowding"
+        ]
+    }
+}

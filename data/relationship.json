@@ -1,0 +1,118 @@
+[
+    {
+        "source_id": "deep_work",
+        "target_id": "high_focus",
+        "relation": "HAS_OUTCOME"
+    },
+    {
+        "source_id": "deep_work",
+        "target_id": "low_distraction",
+        "relation": "HAS_OUTCOME"
+    },
+    {
+        "source_id": "deep_work",
+        "target_id": "mental_clarity",
+        "relation": "HAS_OUTCOME"
+    },
+    {
+        "source_id": "deep_work",
+        "target_id": "sustained_energy",
+        "relation": "HAS_OUTCOME"
+    },
+    {
+        "source_id": "deep_work",
+        "target_id": "flow_state",
+        "relation": "HAS_OUTCOME"
+    },
+    {
+        "source_id": "sleep",
+        "target_id": "fast_sleep_onset",
+        "relation": "HAS_OUTCOME"
+    },
+    {
+        "source_id": "sleep",
+        "target_id": "deep_sleep",
+        "relation": "HAS_OUTCOME"
+    },
+    {
+        "source_id": "sleep",
+        "target_id": "sleep_continuity",
+        "relation": "HAS_OUTCOME"
+    },
+    {
+        "source_id": "sleep",
+        "target_id": "relaxation",
+        "relation": "HAS_OUTCOME"
+    },
+    {
+        "source_id": "sleep",
+        "target_id": "thermal_comfort",
+        "relation": "HAS_OUTCOME"
+    },
+    {
+        "source_id": "high_focus",
+        "target_id": "noise",
+        "relation": "AFFECTED_BY"
+    },
+    {
+        "source_id": "high_focus",
+        "target_id": "notifications",
+        "relation": "AFFECTED_BY"
+    },
+    {
+        "source_id": "fall_sleep_onset",
+        "target_id": "noise",
+        "relation": "AFFECTED_BY"
+    },
+    {
+        "source_id": "deep_sleep",
+        "target_id": "air_quality",
+        "relation": "AFFECTED_BY"
+    },
+    {
+        "source_id": "noise",
+        "target_id": "reduce_auditory_distraction",
+        "relation": "SOLVED_BY"
+    },
+    {
+        "source_id": "lighting",
+        "target_id": "optimize_lighting",
+        "relation": "SOLVED_BY"
+    },
+    {
+        "source_id": "temperature",
+        "target_id": "optimize_temperature",
+        "relation": "SOLVED_BY"
+    },
+    {
+        "source_id": "stress_level",
+        "target_id": "promote_relaxation",
+        "relation": "SOLVED_BY"
+    },
+    {
+        "source_id": "reduce_auditory_distraction",
+        "target_id": "noise_cancelling_headphone",
+        "relation": "IMPLEMENTED_PY"
+    },
+    {
+        "source_id": "reduce_auditory_distraction",
+        "target_id": "heavy_curtains",
+        "relation": "IMPLEMENTED_PY"
+    },
+    {
+        "source_id": "optimize_temperature",
+        "target_id": "fan",
+        "relation":"IMPLEMENTED_PY"
+    },
+    {
+        "source_id": "optimize_temperature",
+        "target_id": "air_conditioner",
+        "relation": "IMPLEMENTED_PY"
+    },
+    {
+        "source_id": "promote_relaxation",
+        "target_id": "warm_lighting",
+        "relation": "IMPLEMENTED_PY"
+    }
+
+]

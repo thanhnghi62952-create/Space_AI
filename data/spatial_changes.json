@@ -1,0 +1,24 @@
+[
+    {
+        "solution_id":
+        "heavy_curtains",
+
+        "changes": [
+            {
+                "zone": "window_area",
+                "action": "install_heavy_curtains"
+            }
+        ]
+    },
+    {
+        "solution_id":
+        "warm_lighting",
+
+        "changes":[
+            {
+                "zone": "ceiling_area",
+                "action": "replace_with_2700k_light"
+            }
+        ]
+    }    
+]

@@ -1,0 +1,110 @@
+{
+    "factors": [
+        {
+            "id": "noise",
+            "name": "Noise",
+            "category": "environment",
+            "description": "Unwanted sounds that interrupt concentration"
+        },
+        {
+            "id": "visual_clutter",
+            "name": "Visual Clutter",
+            "category": "environment",
+            "description": "Excessive visual stimuli competing for attention"
+        },
+        {
+            "id": "notifications",
+            "name": "Notification",
+            "category": "digital",
+            "description": "Digital alerts that interrupt focus"
+        },
+        {
+            "id": "interruptions",
+            "name": "Interruptions",
+            "category": "social",
+            "description": "Unexpected interactions that break concentration"
+        },
+        {
+            "id": "workspace_organization",
+            "name" : "Workspace Organization",
+            "category": "environment",
+            "description": "How well the workspace is structured and organized"
+        },
+        {
+            "id": "task_visibility",
+            "name": "Task Visibility",
+            "category": "cognitive",
+            "description": "How clearly the current task is reprensented"
+        },
+        {
+            "id": "cognitive_load",
+            "name": "Cognitive Load",
+            "category": "cognitive",
+            "description": "Mental effort required to process information"
+        },
+        {
+            "id": "lighting",
+            "name": "Lighting",
+            "category": "physical",
+            "description": "Quality and amount of light in the workspace"
+        },
+        {
+            "id": "air_quality",
+            "name": "Air Quality",
+            "category": "physical",
+            "description": "Freshness and ventilation of the environment"
+        },
+        {
+            "id": "temperature",
+            "name": "Temperature",
+            "category": "physical",
+            "description": "Thermal comfort of the workspace"
+        },
+        {
+            "id": "ergonomics",
+            "name": "Ergonomics",
+            "category": "physical",
+            "description": "Physical comfort and posture support"
+        },
+        {
+            "id": "environment_consistency",
+            "name": "Environment Consistency",
+            "category": "psychological",
+            "description": "Stability and predictability of the workspace"
+        },
+        {
+            "id": "friction",
+            "name": "Friction",
+            "category": "workflow",
+            "description": "Barriers that make starting or continuing work harder"
+        },
+        {
+            "id": "context_association",
+            "name": "Context Association",
+            "category": "psychological",
+            "description": "Mental association between a place and focused work"
+        },
+        {
+            "id": "noise",
+            "name": "Noise",
+            "category": "environment",
+            "description": "Unwanted sounds that disturb sleep"
+        },
+        {
+            "id": "lighting_1",
+            "name": "Lighting",
+            "category": "environment",
+            "description": "Brightness and light exposure in the room"
+        },
+        {
+            "id": "light_leakage",
+            "name": "Light leakage",
+            "category": "environment",
+            "description": "External light entering the sleeping area"
+        },
+        {
+            "id": "temperature",
+            "name": "Temperature"
+        }
+    ]
+}

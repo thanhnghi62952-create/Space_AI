@@ -1,0 +1,69 @@
+{
+    "strategies": [
+        {
+            "id": "reduce_auditory_distraction",
+            "name": "Reduce Auditory Distraction",
+            "description": "Minimize distracting sounds"
+        },
+        {
+            "id": "reduce_visual_distraction",
+            "name": "Reduce Visual Distraction",
+            "description": "Minimize unnecessary visual stimuli"
+        },
+        {
+            "id": "protect_attention",
+            "name": "Protect Attention",
+            "description": "Prevent interruptions and attention switching"
+        },
+        {
+            "id": "organize_workspace",
+            "name": "Organize Workspace",
+            "description": "Create a structured and predictable environment"
+        },
+        {
+            "id": "increase_task_visibility",
+            "name": "Increase Task Visibility",
+            "description": "Make current goals and next actions obvious"
+        },
+        {
+            "id": "reduce_cognitive_load",
+            "name": "Reduce Cognitive Load",
+            "description": "Descrease unnecessary metal processing"
+        },
+        {
+            "id": "optimize_lighting",
+            "name": "Optimize Lighting",
+            "description": "Support alertness and visual comfort"
+        },
+        {
+            "id": "optimize_air_quality",
+            "name": "Optimize Air Quality",
+            "description": "Support cognitive performance through ventilation"
+        },
+        {
+            "id": "optimize_temperature",
+            "name": "Optimize Temperature",
+            "description": "Maintain thermal comfort"
+        },
+        {
+            "id": "support_physical_comfort",
+            "name": "Support Physical Comfort",
+            "description": "Reduce physical fatigue and discomfort"
+        },
+        {
+            "id": "build_focus_association",
+            "name": "Build Focus Association",
+            "description":"Associate the environment with focused work"
+        },
+        {
+            "id": "reduce_workflow_friction",
+            "name": "Reduce Wortflow Friction",
+            "description": "Make starting and continuting work easier"
+        },
+        {
+            "id": "maintain_environment_consistency",
+            "name": "Maintain Environment Consistency",
+            "description": "keep the workspace stable and predictable"
+        }       
+    ]
+}

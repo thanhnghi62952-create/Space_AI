@@ -1,0 +1,12 @@
+{
+    "space_type":"bedroom",
+    "objects": [
+        "bed",
+        "tv",
+        "bright_ceiling_light"  
+    ],
+    "issues":[
+        "visual_clutter",
+        "harsh_lighting"
+    ]
+}

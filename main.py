@@ -1,13 +1,40 @@
-from goal_engine import understand_goal
-from design_engine import generate_design
-from prompt_builder import build_prompt
+from graph_loader import load_relationships
+from reasoning_engine import reason
+from explanation_engine import explain
+from gpt_explainer import generate_explanation
 
-goal = understand_goal(
-    "better sleep"
-)
-plan = generate_design(goal)
+def main():
+    # Load relationships graph
+    relationships = load_relationships()
+    print(relationships)
+    # Goal người dùng chọn
+    goal_id = "sleep"
+    # Reasoning
+    result = reason(goal_id, relationships)
+    explanation = generate_explanation(result)
+    print(explanation)
+    print(result)
+    # Explain result
+    explanation = explain(result)
+    print(explanation)
+    # in kết quả
+    print(":\n===== RESULT =====")
 
-prompt = build_prompt(plan)
+    print("\nOutcome:")
+    for outcome in result["outcomes"]:
+        print("-", outcome)
+    
+    print("\nFactors:")
+    for factor in result ["factors"]:
+        print("-", factor)
 
-print(plan)
-print(prompt)
+    print("\nStrategies:")
+    for strategy in result["strategies"]:
+        print("-", strategy)
+
+    print("\nSolutions:")
+    for solution in result["solutions"]:
+        print("-", solution)
+
+if __name__ == "__main__":
+    main()

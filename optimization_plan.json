@@ -1,0 +1,13 @@
+{
+    "goal":"sleep",
+    "remove":[
+        "bright_ceiling_light"
+    ],
+    "add":[
+        "bedside_lamp",
+        "blackout_curtain"
+    ],
+    "layout_changes":[
+        "reduce_visual_clutter"
+    ]
+}

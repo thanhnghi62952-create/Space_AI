@@ -1,0 +1,69 @@
+{
+    "outcomes": [
+        {
+            "id": "high_focus",
+            "name": "High Focus",
+            "Category": "cognitive",
+            "priority": 10,
+            "description": "Maintain attention on a single task for an extended period"
+        },
+        {
+            "id": "low_distraction",
+            "name": "Low Distraction",
+            "Category": "cognitive",
+            "priority":10,
+            "description": "Minimize interruptions and attention switching"
+        },
+        {
+            "id": "mental_clarity",
+            "name": "Mental Clarity",
+            "Category":"cognitive",
+            "priority": 9,
+            "description": "Reduce cognitive overload and improve clear thinking"
+        },
+        {
+            "id": "sustained_energy",
+            "name": "Sustained Energy",
+            "Category": "physical",
+            "priority": 8,
+            "description": "Maintain cognitive performance over long work sessions"
+        },
+        {
+            "id": "flow_state",
+            "name": "Flow State",
+            "Category": "psychological",
+            "priority": 8,
+            "description": "Support deep immersion in challenging work"
+        },
+        {
+            "id": "fast_sleep_onset",
+            "name": "Fast Sleep Onset",
+            "Category": "physical",
+            "description": "Fall asleep quickly and easily"
+        },
+        {
+            "id": "deep_sleep",
+            "name": "Deep Sleep",
+            "Category": "physical",
+            "description": "promote restorative and high-quality sleep"
+        },
+        {
+            "id": "sleep_continuity",
+            "name": "Sleep Continuity",
+            "Category": "physical",
+            "description": "Reduce awakenings during the night"
+        },
+        {
+            "id": "relaxation",
+            "name": "Relaxation",
+            "Category": "emotional",
+            "description": "Reduce stress and promote calmness"
+        },
+        {
+            "id": "thermal_comfort",
+            "name": "Thermal Comfort",
+            "Category": "physical",
+            "description": "Maintain comfortable body temperature during sleep"
+        }
+    ]
+}

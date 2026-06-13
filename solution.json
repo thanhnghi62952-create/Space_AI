@@ -1,0 +1,102 @@
+{
+    "solution": [
+        {
+            "id": "noise_cancelling_headphones",
+            "name": "Noise Cancelling Headphones",
+            "strategy_ids": [
+                "reduce_auditory_distraction"
+            ],
+            "type": "object",
+            "description": "Reduce surrounding noise during focused work"
+        },
+        {
+            "id": "acoustic_panels",
+            "name": "Acoustic Panels",
+            "strategy_ids": [
+                "reduce_auditory_distraction"
+            ],
+            "type":"object"
+        },
+        {
+            "id": "heavy_curtains",
+            "name": "Heavy Curtains",
+            "strategy_ids": [
+                "reduce_auditory_distraction"
+            ],
+            "type":"object"
+        },
+        {
+            "id": "closed_storage",
+            "name": "Closed Storage",
+            "strategy_ids": [
+                "organize_workspace"
+            ],
+            "type": "furniture"
+        },
+        {
+            "id": "minimalist_desk",
+            "name": "Minimalist Desk",
+            "strategy_ids": [
+                "reduce_auditory_distraction",
+                "organize_workspace"
+            ],
+            "type": "furniture"
+        },
+        {
+            "id": "goal_board",
+            "name": "Goal Board",
+            "strategy_ids": [
+                "increase_task_visibility"
+            ],
+            "type": "object"
+        },
+        {
+            "id": "task_card",
+            "name": "Task Card",
+            "strategy_ids": [
+                "increase_task_visibility"
+            ],
+            "type": "object"
+        },
+        {
+            "id": "desk_lamp",
+            "name": "Desk Lamp",
+            "strategy_ids": [
+                "optimize_lighting"
+            ],
+            "type": "lighting"
+        },
+        {
+            "id": "ergonomic_chair",
+            "name": "Ergonomic Chair",
+            "strategy_ids": [
+                "support_physical_comfort"
+            ],
+            "type": "furniture"
+        },
+        {
+            "id": "monitor_arm",
+            "name": "Monitor Arm",
+            "strategy_ids": [
+                "support_physical_comfort"
+            ],
+            "type": "accessory"
+        },
+        {
+            "id": "focus_zone",
+            "name": "Dedicated Focus Zone",
+            "strategy_ids": [
+                "build_focus_association"
+            ],
+            "type": "layout"
+        },
+        {
+            "id": "single_task_setup",
+            "name": "Single Task Setup",
+            "strategy_ids": [
+                "protect_attention"
+            ],
+            "type": "workflow"
+        }
+    ]
+}

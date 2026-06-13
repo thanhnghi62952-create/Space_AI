@@ -1,0 +1,21 @@
+{
+    "goals":[
+        {
+    "id": "deep_work",
+    "name": "Deep Work",
+    "description": "Support sustained concentration and high productivity"
+        },
+        {
+    "id": "sleep",
+    "name": "Sleep",
+    "description": "Support falling asleep quickly and maintaining restorative sleep",
+    "outcome_ids": [
+        "fast_sleep_onset",
+        "deep_sleep",
+        "sleep_continuity",
+        "ralaxation",
+        "thermal_comfort"
+    ]
+        }
+    ]
+}
