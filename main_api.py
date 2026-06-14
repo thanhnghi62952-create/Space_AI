@@ -29,3 +29,8 @@ def recommend(goal_id: str):
         "result": result,
         "explanation": explanation
     }
+@app.get("/")
+def home():
+    return {
+        "message": "Space AI server is running successfully"
+    }
