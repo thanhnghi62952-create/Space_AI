@@ -1,16 +1,5 @@
-try:
-    from fastapi import FastAPI
-except Exception:
-    # Minimal fallback for environments without fastapi installed (for
-    # static analysis or lightweight testing). Not a full replacement.
-    class FastAPI:
-        def __init__(self, *args, **kwargs):
-            pass
 
-        def post(self, path: str):
-            def _decor(func):
-                return func
-            return _decor
+from fastapi import FastAPI
 from graph_loader import load_relationships
 from reasoning_engine import reason
 from explanation_engine import explain
@@ -50,14 +39,3 @@ def create_user(user: UserCreate):
         "message": "User created",
         "user": user
     }
-@app.post("/recommend")
-def recommend(request: dict):
-    goal_id = request["goal_id"]
-
-    relationships = load_relationships
-
-    result = reason(
-        goal_id,
-        relationships
-    )
-    return result
