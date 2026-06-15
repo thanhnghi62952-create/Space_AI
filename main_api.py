@@ -5,11 +5,14 @@ from reasoning_engine import reason
 from explanation_engine import explain
 from feedback_engine import save_feedback
 from database.schemas import UserCreate
+from database.schemas import RecommendationRequest
 app = FastAPI()
 relationships = load_relationships()
 
 @app.post("/recommend")
-def recommend(goal_id: str):
+def recommend(request:RecommendationRequest):
+    goal_id = request.goal_id
+    
     result = reason(
         goal_id,
         relationships
