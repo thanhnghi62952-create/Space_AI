@@ -54,12 +54,10 @@ def create_user(user: UserCreate):
 def recommend(request: dict):
     goal_id = request["goal_id"]
 
-    relationships = load_relationships()
+    relationships = load_relationships
 
     result = reason(
         goal_id,
         relationships
     )
     return result
-
-    
