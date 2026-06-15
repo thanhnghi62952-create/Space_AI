@@ -50,3 +50,16 @@ def create_user(user: UserCreate):
         "message": "User created",
         "user": user
     }
+@app.post("/recommend")
+def recommend(request: dict):
+    goal_id = request["goal_id"]
+
+    relationships = load_relationships()
+
+    result = reason(
+        goal_id,
+        relationships
+    )
+    return result
+
+    
