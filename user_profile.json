@@ -1,0 +1,9 @@
+{
+    "user_id": "default_user",
+    "budget_level": "low",
+    "room_size": "small",
+    "preferred_style": "japandi",
+    "climate": "hot_humid",
+    "noise_level": "high",
+    "natural_light": "low"
+}

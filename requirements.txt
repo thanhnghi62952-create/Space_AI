@@ -4,3 +4,4 @@ openai
 python_dotenv
 pydantic
 gunicorn
+sqlalchemy
