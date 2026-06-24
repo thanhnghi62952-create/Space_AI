@@ -8,12 +8,13 @@ class RecommendationRequest(BaseModel):
     goal_id: str
 
 class UserCreate(BaseModel):
-    user_id: str
+    username: str
     email: str
+    password: str
 
 class UserResponse(BaseModel):
     id: int
-    user_id: str
+    username: str
     email: str
     class Config:
         from_attributes = True
@@ -33,3 +34,32 @@ class FeedbackCreate(BaseModel):
     goal_id: str
     rating: int
     comment: str
+
+class RecommendationHistoryCreate(BaseModel):
+    user_id: str
+    goal_id: str
+    prompt: str
+    image_url: str
+    rating: str
+
+class PreferenceCreate(BaseModel): #form mà người dùng phải điền vào
+    user_id: str # id phân biệt người dùng 
+
+    preference_type: str # đây là loại sở thích gì
+
+    preference_value: str # người dùng cụ thể thích cái gì
+
+    score: int # mức độ người dùng thích
+
+class InteractionCreate(BaseModel):
+    user_id: str
+    goal_id: str
+    solutions: str
+    prompt: str
+    image_url: str
+    rating: int
+    comment: str
+
+class LoginRequest(BaseModel):
+    username: str
+    password: str

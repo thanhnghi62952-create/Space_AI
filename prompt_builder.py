@@ -1,9 +1,16 @@
-def build_prompt(changes):
-    prompt = """
-    Modern minimalist bedroom optimized for sleep.
-    """ 
+def build_prompt(goal_id, spatial_changes):
+    prompt = f"""
+A beautiful room optimized for { goal_id}.
 
-    for change in changes:
+Recommended changes:
+"""
+    for change in spatial_changes:
+        prompt += f"\n- {change}"
+    prompt += """
+Style: Jpandi
 
-        prompt += change["action"] + ", "
+Lighting: Warm ambient lighting
+
+Mood: Peaceful and relaxing
+"""
     return prompt

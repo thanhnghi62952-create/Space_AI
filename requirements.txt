@@ -5,3 +5,10 @@ python_dotenv
 pydantic
 gunicorn
 sqlalchemy
+passlib[bcrypt]
+chromadb
+neo4j
+python-jose[cryptography]
+redis
+celery
+gunicorn

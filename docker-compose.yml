@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  space_r:
+    build: .  # Đã thêm dấu chấm để chỉ định vị trí build hiện tại
+    container_name: space_r_app
+    ports:
+      - "8000:8000"
+    depends_on:
+      - redis
+      - neo4j
+
+  redis:
+    image: redis:latest
+    container_name: space_r_redis
+    ports:
+      - "6379:6379"
+
+  neo4j:
+    image: neo4j:latest
+    container_name: space_r_neo4j
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    environment:
+      - NEO4J_AUTH=neo4j/0399662952 # Cấu hình sẵn tài khoản admin/mật khẩu để đăng nhập không bị lỗi

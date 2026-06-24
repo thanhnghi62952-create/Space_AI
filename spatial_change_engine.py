@@ -1,15 +1,13 @@
-import json
+def generate_spatial_changes(solutions):
 
-def load_spatial_changes():
+    changes = []
 
-    with open("data/spatial_changes.json","r",encoding="utf-8") as f:
-        return json.load(f)
-    
-def get_changes(solution_id):
-    spatial_data = load_spatial_changes()
-
-    for item in spatial_data:
-
-        if item["solution_id"] == solution_id:
-            return item["changes"]
-    return []
+    mapping = {
+        "blackout_curtains": "Install blackout curtains",
+        "warm_lighting": "Use warm ambient lighting",
+        "white_noise_machine": "Add a white noise machine"
+    }
+    for solution in solutions:
+        if solution in mapping:
+            changes.append(mapping[solution])
+    return changes
